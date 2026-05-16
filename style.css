@@ -1,6 +1,6 @@
 *{
-margin:0;
-padding:0;
+ margin: 0;
+ padding: 0;
 box-sizing:border-box;
 scroll-behavior:smooth;
 }
@@ -27,69 +27,63 @@ transparent 35%),
 #0f0f0f;
 }
 
-/* ===== NAVBAR ===== */
-
+/*NAVBAR */
 nav {
-      width: 100%;
-      position: sticky;
-      top: 0;
-      z-index: 1000;
-      background: var(--bg);
-      border-bottom: 1px solid rgba(79,125,243,0.12);
-    }
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #0f172a;
+}
 
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      height: 72px;
-    }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
 
-    .logo img {
-      width: 90px;
-    }
+.logo img { 
+width: 90px;
+margin-left: 145px; 
+}
 
-    .nav-menu {
-      display: flex;
-      gap: 4px;
-      list-style: none;
-    }
+.nav-menu { display: flex; gap: 4px; list-style: none; }
 
-    .nav-menu a {
-      color: white;
-      text-decoration: none;
-      padding: 8px 18px;
-      border-radius: 30px;
-      transition: 0.3s;
-      font-size: 14px;
-    }
+.nav-menu a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 18px;
+  border-radius: 30px;
+  transition: 0.3s;
+  font-size: 14px;
+}
 
-    .nav-menu a:hover,
-    .nav-menu a.active {
-      background: var(--accent-dark);
-      box-shadow: 0 0 14px rgba(79,125,243,0.5);
-    }
+.nav-menu a:hover,
+.nav-menu a.active {
+  background: #1E3A5F;
+  box-shadow: 0 0 14px rgba(79,125,243,0.5);
+}
 
-    .contact-btn {
-      background: var(--accent-dark);
-      padding: 9px 24px;
-      border-radius: 30px;
-      color: white;
-      text-decoration: none;
-      font-size: 14px;
-      transition: 0.3s;
-    }
+.contact-btn {
+  background: #1E3A5F;
+  padding: 9px 24px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  transition: 0.3s;
+  margin-right: 145px;
+}
 
-    .contact-btn:hover {
-      background: var(--accent);
-      box-shadow: 0 0 20px rgba(79,125,243,0.6);
-    }
+.contact-btn:hover {
+  background:#4f7df3;
+  box-shadow: 0 0 20px rgba(79,125,243,0.6);
+}
 
-    .menu-toggle {
-      display: none;
-      font-size: 28px;
-      cursor: pointer;
-    }
+.menu-toggle { display: none; font-size: 28px; cursor: pointer; }
+
+
 
 /* ===== HERO ===== */
 
